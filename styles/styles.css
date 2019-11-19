@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato|Modak|Rubik&display=swap');
 
 body{
     margin: 0;
@@ -90,10 +91,246 @@ input{
     padding: 20px;
 }*/
 
-@media ()
-{
+/* Explore marketplace*/
+h2{
+    color: rgb(104, 9, 9);
+    padding: 30px 0 0 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font: 'Rubik', sans-serif;
+}
+
+.explore{
+    background-color: white;
+    margin-top: 220px;
+    height: 1000px;
+    width: 100%;
+    
+}
+
+.explore .menu-bar{
+    margin: 0;
+    display: inline-block;
+    justify-content: space-between;
 
 }
+
+.menu-bar li{
+    list-style: none;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 30px;
+    border: 0;
+    margin: 0px 20px;
+    font-size: 100%;
+    /*vertical-align: baseline;*/
+    font-family: sans-serif;
+    cursor: pointer;
+    text-align: center;
+    width: 20%;
+}
+
+.menu-bar li a{
+    font-size: 16px;
+    color: black;
+    
+}
+
+img{
+    height: 40px;
+    width: 40px;
+    padding-right: 50px;
+}
+
+p{
+    text-align: center;
+    padding-right: 50px;
+}
+
+/*styling cards*/
+/*.all{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin: 0;
+}*/
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cards{
+    display: inline-flex;
+    /*justify-content: space-around;*/
+}
+
+.card1{
+    box-sizing: border-box;
+    transition: 0.3s;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    /*display: inline-block;*/
+    border-radius: 4%;
+    margin: 2%;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
+}
+
+.card2{
+    box-sizing: border-box;
+    transition: 0.3s;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    /*display: inline-block;*/
+    border-radius: 4%;
+    margin: 2%;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
+}
+
+.card3{
+    box-sizing: border-box;
+    transition: 0.3s;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    /*display: inline-block;*/
+    border-radius: 4%;
+    margin: 2%;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
+}
+
+.card4{
+    box-sizing:border-box;
+    transition: 0.3s;
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    /*display: inline-block;*/
+    border-radius: 4%;
+    margin: 2%;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
+}
+
+.card1 img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 20px;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.card2 img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 20px;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.card3 img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 20px;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.card4 img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 20px;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.h3p .span .a1 a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;   
+    font-style: normal;
+    font-weight: 600;
+}
+
+.h3p .span .a2 a{
+    text-decoration: none;
+    padding-left: 30px;
+    color: black;   
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+
+/*.h3{
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.p{
+    text-align: left;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.h3p{
+    text-align: left;
+}*/
+
+.span{
+    line-height: 20px;
+    vertical-align: baseline;
+}
+
+.pro-section{
+    background: url("../images/pic9.jpg");
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.pro-section .pro-text h3{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+    padding-left: 30px;
+}
+
+
+
+.pro-section .pro-text h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: seagreen;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.pro-section .pro-text .pro-button{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    background-repeat: no-repeat;
+    background-color: rgb(54, 51, 51);
+    background-color: rgba(56, 53, 53, 0.8);
+    color: white;
+    padding: 5px;
+    margin-left: 40px;
+    border-color: seagreen;
+    border-radius: 3px;
+    border: none;
+}
+
+.pro-section .pro-text .pro-button:hover{
+    cursor: pointer;
+    color: seagreen;
+    background-color: rgb(54, 51, 51);
+    background-color: rgba(56, 53, 53, 0.8);
+    border: 2px solid seagreen;
+    border-radius: 3px;
+}
+
 /*{
     box-sizing: border-box;
     margin: 0;
